@@ -1,4 +1,0 @@
-repository "SHMUP 2.0@pro_69420@cloud"
-  path "/"
-    br "/main"
-    co "/main"

@@ -26,7 +26,8 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator Shoot()
     {
-        Instantiate(bullet, transform.position, transform.rotation);
+        GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
+        newBullet.tag = transform.tag;
         canShoot = false;
         yield return new WaitForSeconds(bulletCooldown);
         canShoot = true;

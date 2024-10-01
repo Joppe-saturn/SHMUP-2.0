@@ -15,11 +15,12 @@ public class Enemy1Shooting : MonoBehaviour
 
     private IEnumerator Shooting()
     {
-        while (true)
+        while (player != null)
         {
             yield return null;
             GameObject newBullet = Instantiate(bullet, transform.position, quaternion.identity);
             newBullet.transform.up = player.transform.position - transform.position;
+            newBullet.tag = transform.tag;
             yield return new WaitForSeconds(1);
         }
     }

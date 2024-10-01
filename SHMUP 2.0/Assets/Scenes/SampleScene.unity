@@ -274,6 +274,21 @@ MonoBehaviour:
     - enemies:
       - {fileID: 5181024744039847421, guid: 552fc87bdd6fd89468e92281ebe793fe, type: 3}
     spawnInterval: 5
+  - groups:
+    - enemies:
+      - {fileID: 5181024744039847421, guid: 552fc87bdd6fd89468e92281ebe793fe, type: 3}
+      - {fileID: 5181024744039847421, guid: 552fc87bdd6fd89468e92281ebe793fe, type: 3}
+    - enemies:
+      - {fileID: 5181024744039847421, guid: 552fc87bdd6fd89468e92281ebe793fe, type: 3}
+      - {fileID: 5181024744039847421, guid: 552fc87bdd6fd89468e92281ebe793fe, type: 3}
+      - {fileID: 5181024744039847421, guid: 67a557236d4ddf54386c2f0abf538917, type: 3}
+    - enemies:
+      - {fileID: 5181024744039847421, guid: 552fc87bdd6fd89468e92281ebe793fe, type: 3}
+      - {fileID: 5181024744039847421, guid: 67a557236d4ddf54386c2f0abf538917, type: 3}
+      - {fileID: 5181024744039847421, guid: 67a557236d4ddf54386c2f0abf538917, type: 3}
+    - enemies:
+      - {fileID: 5181024744039847421, guid: 552fc87bdd6fd89468e92281ebe793fe, type: 3}
+    spawnInterval: 5
   currentWave: 0
 --- !u!1001 &4135182678965837057
 PrefabInstance:
